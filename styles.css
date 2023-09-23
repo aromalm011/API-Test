@@ -1,0 +1,386 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+ 
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #c1c1c1;
+}
+
+.right {
+    right: 0;
+    background-color: #b9b9b9;
+}
+
+.head {
+    margin-top: 30px;
+    margin-left: 43px;
+    position: absolute;
+}
+.head4 {
+    margin-top: 30px;
+    margin-left: 43px;
+    position: absolute;
+}
+
+.headt1 {
+    margin-top: 40px;
+    margin-left: 43px;
+    position: absolute;
+}
+.headt2 {
+    margin-top: 30px;
+    margin-left: 43px;
+    position: absolute;
+}
+
+.tbl {
+    margin-top: 64px;
+    margin-left: 43px;
+    width: 600px;
+    height: 90px;
+    border-radius: 9px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.tbl2 {
+    margin-top: 10px;
+    margin-left: 43px;  
+    min-height: 50px;
+    position: relative;
+    width: 600px;
+    border-radius: 9px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.tbl4 {
+    margin-top: 40px;
+    margin-left: 43px;
+    width: 600px;
+    height: 40px;
+    border-radius: 9px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+.tbl3 {
+
+    min-height: 50px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 43px;
+    width: 600px;
+    /* min-height: 130px; */
+    border-radius: 9px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+label {
+    font-size: 22px;
+}
+
+
+.lbl {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.lbl2 {
+    margin-left: 10px;
+}
+.lbl3,.lbl4 {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+
+.btn-add {
+    margin-top: 28px;
+    margin-left: 235px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 9px;
+    padding: 1.5px 6px;
+    border: 0;
+    color: #000000;
+    background: #e7ebee;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+.btn-add:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #da0c0c;
+}
+
+.btn-header {
+    margin-top: 28px;
+    margin-left: 235px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 9px;
+    padding: 1.5px 6px;
+    border: 0;
+    color: #000000;
+    background: #e7ebee;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+.btn-header:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #da0c0c;
+}
+
+
+#method {
+    width: 150px; /* Set the width of the select box */
+    padding: 8px; /* Add some padding for better appearance */
+    border: 1px solid #f4f4f4; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    font-size: 16px; /* Set the font size */
+    background-color: #f7f7f7; /* Set the background color */
+    color: #333; /* Set the text color */
+}
+
+/* Style for the options */
+#method option {
+    background-color: #fff; /* Set the background color for options */
+    color: #333; /* Set the text color for options */
+}
+
+
+
+.btn-delete {
+    margin-top: 19px;
+    margin-left: 10px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 2px 6px;
+    border: 0;
+    color: #f5f5f5;
+    background: #ff0505;
+    line-height: 1.15;
+    font-size: 14px;
+}
+
+.btn-delete:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #000000;
+}
+
+.check1{
+    margin-top: 7px;
+    margin-left: 95%;
+}
+
+
+.btn-sub {
+    margin-top: 9%;
+    margin-left: 80%;
+    /* display: inline-block; */
+    outline: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 10px 15px;
+    border: 0;
+    color: #000000;
+    background: #e7ebee;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+.btn-sub:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #da0c0c;
+}
+.head2 {
+    margin-left: 17px;
+    margin-top: 4px;
+    /* margin-left: 18px; */
+}
+
+
+  .npoint {
+    margin-top: 77px;
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Styling for the input field */
+.npoint{
+    margin-left: 40px;
+}
+#npointtest{
+    padding: 4px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 60%;
+}
+#url {
+    padding: 3px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 60%;
+}
+
+input{
+    padding: 2px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30%;
+}
+
+.row label {
+    margin-right: 12px; /* You can adjust the margin as needed */
+}
+
+.row button#delete {
+    background-color: red; /* Change the background color */
+    color: white; /* Change the text color */
+    border: none; /* Remove the border */
+    cursor: pointer;
+    padding: 3px 8px; /* Adjust padding for button size */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+#_checkbox {
+    display: none;
+  }
+  
+  .authcheckbox {
+    position: absolute;
+    left: 86%;
+    width: 24px;
+    height: 24px;
+    margin-top: 71px;
+    /* margin: 0 auto; */
+    background-color: #f72414;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    box-shadow: 0 3px 4px #ffbeb8;
+    cursor: pointer;
+    transition: 0.2s ease transform, 0.2s ease background-color, 0.2s ease box-shadow;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.authcheckbox:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+    background-color: #fff;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    box-shadow: inset 0 3px 4px #ffbeb8;
+    transition: 0.2s ease width, 0.2s ease height;
+}
+
+.authcheckbox:hover:before {
+    width: 15px;
+    height: 15px;
+    box-shadow: inset 0 3px 4px #ff9d96;
+}
+
+.authcheckbox:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+#_checkbox:checked + .authcheckbox {
+    background-color: #07d410;
+    box-shadow: 0 3px 4px #000000;
+}
+
+#_checkbox:checked + .authcheckbox:before {
+    width: 0;
+    height: 0;
+}
+
+
+.sts {
+    margin-top: 10px;
+    margin-left: 32px; 
+    font-size: 24px;
+}
+
+#sts {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+
+
+
+#copyfun1,#copyfun2,#copyfun3,#copyfun4 {
+    margin-top: 60px;
+    margin-left: 49px;
+    width: 580px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none; 
+  }
+
+  .tblsplit {
+    margin-top: 50px;
+    margin-left: 49px;
+    width: 600px;
+    height: 90px;
+    padding: 10px;
+}
+
+
+.container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+textarea {
+  width: 80%;
+}
+
+.copybtn {
+
+    font-size: 19px;
+    padding: 3px 3px;
+   
+    margin-top: 130px;
+
+  margin-right: 25px; /* Add margin to separate from textarea */
+}
+
+
