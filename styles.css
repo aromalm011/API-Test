@@ -19,8 +19,14 @@
     background-color: #b9b9b9;
 }
 
+.head2 {
+    margin-top: 35px;
+    margin-left: 53px;
+    /* position: absolute; */
+}
+
 .head {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 43px;
     position: absolute;
 }
@@ -42,13 +48,17 @@
 }
 
 .tbl {
-    margin-top: 64px;
+    margin-top: 8px;
     margin-left: 43px;
     width: 600px;
     height: 90px;
     border-radius: 9px;
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
+}
+.req {
+    margin-left: 43px;
+    margin-top: 5px;
 }
 
 .tbl2 {
@@ -152,43 +162,24 @@ label {
 
 
 #method {
-    width: 150px; /* Set the width of the select box */
-    padding: 8px; /* Add some padding for better appearance */
-    border: 1px solid #f4f4f4; /* Add a border */
-    border-radius: 5px; /* Add rounded corners */
-    font-size: 16px; /* Set the font size */
-    background-color: #f7f7f7; /* Set the background color */
-    color: #333; /* Set the text color */
+    width: 150px;
+    padding: 8px; 
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f7f7f7; 
+    color: #333; 
 }
 
-/* Style for the options */
+
 #method option {
-    background-color: #fff; /* Set the background color for options */
-    color: #333; /* Set the text color for options */
+    background-color: #fff;
+    color: #333;
 }
 
 
 
-.btn-delete {
-    margin-top: 19px;
-    margin-left: 10px;
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-weight: 400;
-    border-radius: 3px;
-    padding: 2px 6px;
-    border: 0;
-    color: #f5f5f5;
-    background: #ff0505;
-    line-height: 1.15;
-    font-size: 14px;
-}
 
-.btn-delete:hover {
-    transition: all .1s ease;
-    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #000000;
-}
 
 .check1{
     margin-top: 7px;
@@ -219,29 +210,10 @@ label {
 .head2 {
     margin-left: 17px;
     margin-top: 4px;
-    /* margin-left: 18px; */
 }
 
 
-  .npoint {
-    margin-top: 77px;
-    margin-left: 18px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #000000;
-}
 
-/* Styling for the input field */
-.npoint{
-    margin-left: 40px;
-}
-#npointtest{
-    padding: 4px;
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 60%;
-}
 #url {
     padding: 3px;
     border: 2px solid #007BFF;
@@ -259,16 +231,15 @@ input{
 }
 
 .row label {
-    margin-right: 12px; /* You can adjust the margin as needed */
+    margin-right: 12px; 
 }
 
 .row button#delete {
-    background-color: red; /* Change the background color */
-    color: white; /* Change the text color */
-    border: none; /* Remove the border */
+    background-color: red; 
+    color: white;
+    border: none; 
     cursor: pointer;
-    padding: 3px 8px; /* Adjust padding for button size */
-    border-radius: 5px; /* Add rounded corners */
+    border-radius: 11px; 
 }
 
 #_checkbox {
@@ -281,7 +252,6 @@ input{
     width: 24px;
     height: 24px;
     margin-top: 71px;
-    /* margin: 0 auto; */
     background-color: #f72414;
     transform: translateY(-50%);
     border-radius: 50%;
